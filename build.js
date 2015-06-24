@@ -63,7 +63,7 @@ Metalsmith(__dirname)
     livereload: true
   })
 )
-  .destination('./build')
+  .destination('./html')
   .build(function (err) {
     if (err) {
       console.log(err);
