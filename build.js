@@ -5,7 +5,7 @@ var Metalsmith   = require('metalsmith'),
     permalinks   = require('metalsmith-permalinks'),
     less         = require('metalsmith-less'),
     ignore       = require('metalsmith-ignore'),
-    //autoprefixer = require('metalsmith-autoprefixer'),
+    autoprefixer = require('metalsmith-autoprefixer'),
     uglify       = require('metalsmith-uglify'),
     serve        = require('metalsmith-serve'),
     watch        = require('metalsmith-watch'),
@@ -19,6 +19,14 @@ Metalsmith(__dirname)
     }
   })
   .source('./src')
+  .use(serve())
+  .use(watch({
+    paths: {
+      "${source}/**/*": true,
+      "templates/**/*": "**/*.md"
+    }
+  })
+)
   .use(collections({
     pages: {
       pattern: 'content/pages/*.md'
@@ -51,18 +59,8 @@ Metalsmith(__dirname)
     }
   }))
   .use(uglify({removeOriginal: true}))
-  //.use(autoprefixer())
+  .use(autoprefixer())
   .use(ignore(['**/*.less', '**/*.variables', '**/*.overrides', '**/*.config']))
-  .use(serve())
-  .use(
-  watch({
-    paths: {
-      "${source}/**/*": true,
-      "templates/**/*": "**/*.md"
-    },
-    livereload: true
-  })
-)
   .destination('./html')
   .build(function (err) {
     if (err) {

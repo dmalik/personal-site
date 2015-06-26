@@ -1,7 +1,44 @@
 @import 'lib/semantic.less';
 
-@black: #000;
+@offWhite: #D8E4B8;
+@orange: #D55B43;
+@red: #BD2843;
+@purple: #3E3644;
 
-.h1{
-  color: @black;
+body {
+  overflow-x: hidden;
+  background-color: @red;
+}
+
+#particle-container {
+  //background-color: @purple !important;
+  background: radial-gradient(ellipse at center, #3e3644 0%, #311f3a 47%, #1d0c23 100%);
+}
+
+#right-angle-header {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  z-index: 5000;
+  background-color: @red;
+  //background-color: rgba(255, 0, 0, 0.3);
+  transform:  rotate(355deg) scale(2.1) skew(355deg) translate(0px);
+}
+
+#left-angle-header {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  z-index: 5000;
+  background-color: @red;
+  transform:  rotate(-355deg) scale(2.1) skew(-355deg) translate(0px);
+}
+
+#mid-header {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
 }
