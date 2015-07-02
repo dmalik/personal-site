@@ -1,5 +1,17 @@
 @import 'lib/semantic.less';
 
+@font-face {
+  font-family: 'Simplifica';
+  src: url('fonts/simplifica_typeface-webfont.eot');
+  src: url('fonts/simplifica_typeface-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/simplifica_typeface-webfont.woff2') format('woff2'),
+  url('fonts/simplifica_typeface-webfont.woff') format('woff'),
+  url('fonts/simplifica_typeface-webfont.ttf') format('truetype'),
+  url('fonts/simplifica_typeface-webfont.svg#simplificasimplifica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @offWhite: #D8E4B8;
 @orange: #D55B43;
 @red: #BD2843;
@@ -12,19 +24,55 @@ body {
 
 #particle-container {
   //background-color: @purple !important;
-  background: radial-gradient(ellipse at center, #3e3644 0%, #311f3a 47%, #1d0c23 100%);
+  background: radial-gradient(ellipse at center, #3e3644 0%, #311f3a 47%, #1d0c23 100%) !important;
+  overflow: hidden;
+  position: relative;
+  height: 80vh;
 }
 
-#right-angle-header {
-  max-height: 60px;
-  min-height: 60px;
-  margin-bottom: -30px;
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-  z-index: 5000;
-  background-color: @red;
-  //background-color: rgba(255, 0, 0, 0.3);
-  transform:  rotate(355deg) scale(2.1) skew(355deg) translate(0px);
+#particles-js{
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  z-index: 25;
+}
+
+.content-a {
+  display: table;
+  overflow: hidden;
+  width: 100%;
+  height: 80vh;
+  z-index: 1;
+}
+
+.content-b {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#header-text {
+  font-family: 'Simplifica', Arial, sans-serif;
+  position: absolute;
+  //margin-top: 400px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: @offWhite;
+  font-size: 4rem;
+  margin-top: -100px;
+  padding-bottom: 15px;
+  text-shadow: 2px 2px #333;
+  width: 100%;
+  height: 80vh;
+  z-index: 1;
+}
+
+#slant-container-1{
+  z-index: 50;
+  margin-top: -25px;
 }
 
 #left-angle-header {
@@ -33,12 +81,132 @@ body {
   margin-bottom: -30px;
   padding-top: 0rem !important;
   padding-bottom: 0rem !important;
-  z-index: 5000;
   background-color: @red;
-  transform:  rotate(-355deg) scale(2.1) skew(-355deg) translate(0px);
+  z-index:50;
+  transform: rotate(-355deg) scale(2.1) skew(-355deg) translate(0px);
 }
 
 #mid-header {
   padding-top: 0rem !important;
   padding-bottom: 0rem !important;
+  z-index:50;
+}
+
+#right-angle-header {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @red;
+  z-index:50;
+  //background-color: rgba(255, 0, 0, 0.3);
+  transform: rotate(355deg) scale(2.1) skew(355deg) translate(0px);
+}
+
+#text-block-1{
+  z-index: 100;
+  padding-top: 50px;
+}
+
+.content-header {
+  font-family: 'Simplifica', Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  color: @offWhite;
+  font-size: 3rem;
+  text-shadow: 2px 2px #333;
+}
+
+.grad-line {
+  border: 0;
+  width: 30%;
+  height: 1px;
+  background-image: linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
+}
+
+
+.top-quote{
+  font-size: 1.5rem;
+  padding-top: 25px;
+  color: @offWhite;
+  font-weight: 300;
+  line-height: 150%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 20px;
+}
+
+.help-text{
+  font-size: 1.2rem;
+  padding-top: 25px;
+  color: @offWhite;
+  font-weight: 300;
+  line-height: 150%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.help-option-text{
+  font-family: 'Simplifica', Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  color: @offWhite;
+  font-weight: 300;
+}
+
+.help-icon{
+  font-size: 3.8rem !important;
+  color: @offWhite !important;
+  margin-bottom:15px !important;
+}
+
+.center-column{
+  text-align: center !important;
+}
+
+#slant-container-2{
+  z-index: 50;
+  padding-top: 115px;
+}
+
+#left-angle-2 {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @purple;
+  z-index:50;
+  transform: rotate(355deg) scale(2.01) skew(355deg) translate(0px);
+}
+
+#mid-2 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  z-index:50;
+}
+
+#right-angle-2 {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @purple;
+  z-index:50;
+  //background-color: rgba(255, 0, 0, 0.3);
+  transform: rotate(-355deg) scale(2.01) skew(-355deg) translate(0px);
+}
+
+#blog-section{
+  z-index: 50;
+  background-color: @purple;
+  margin-top: -20px
+}
+
+#text-block-2{
+  z-index: 100;
+  margin-top: -45px;
 }

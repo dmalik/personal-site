@@ -6,13 +6,13 @@
        Fonts
 --------------------*/
 
-@headerFont        : 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : 'Roboto Slab', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Roboto Slab', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @fontSmoothing     : antialiased;
 
 @importGoogleFonts : true;
-@googleFontName    : 'Lato';
-@googleFontSizes   : '400,700,400italic,700italic';
+@googleFontName    : 'Roboto Slab';
+@googleFontSizes   : '300';
 @googleSubset      : 'latin';
 
 @googleProtocol    : 'https://';
@@ -29,7 +29,7 @@
   Page Heading
 ---------------*/
 
-@headerFontWeight : bold;
+@headerFontWeight : normal;
 @headerLineHeight : 1.33em;
 
 @h1               : 2rem;

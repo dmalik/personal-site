@@ -1,41 +1,143 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <title>dustinmalik.com</title>
-  <link rel="stylesheet" href="styles/home.css">
-  <script>
-    var meta = document.createElement("meta");
-    meta.setAttribute('name','viewport');
-    meta.setAttribute('content','initial-scale='+ (1/window.devicePixelRatio) + ',user-scalable=no');
-    document.getElementsByTagName('head')[0].appendChild(meta);
-  </script>
-
+    <meta charset="UTF-8"/>
+    <title>dustinmalik.com</title>
+    <link rel="stylesheet" href="styles/home.css" type="text/css" charset="utf-8">
+    <script>
+        var meta = document.createElement("meta");
+        meta.setAttribute('name', 'viewport');
+        meta.setAttribute('content', 'initial-scale=' + (1 / window.devicePixelRatio) + ',user-scalable=no');
+        document.getElementsByTagName('head')[0].appendChild(meta);
+    </script>
 </head>
 <body>
-<div id="particle-container">
-<div id="particles-js"></div>
-</div>
-<div class="ui three column grid">
-  <div class="column" id="left-angle-header">
-  </div>
-  <div class="column" id="mid-header">
-  </div>
-  <div class="column" id="right-angle-header">
-  </div>
-</div>
-</div>
-<div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<div id="particle-container">
+    <div id="particles-js"></div>
+    <div class="content-a">
+        <div class="content-b">
+            <div id="header-text">WELCOME TO MY WEBSITE<br/>IT AIN'T PERFECT<br/>BUT IT'S ALL HOMEGROWN
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="ui three column grid" id="slant-container-1">
+    <div class="column" id="left-angle-header">
+    </div>
+    <div class="column" id="mid-header">
+    </div>
+    <div class="column" id="right-angle-header">
+    </div>
+</div>
+
+<div class="ui one column page grid" id="slant-container-1">
+    <div class="column" id="text-block-1">
+        <div class="content-header">PROFILE</div>
+        <hr class="grad-line">
+
+        <div class="column">
+            <div class="top-quote">Greetings, my name is Dustin, I'm a creative technologist based in Waterloo, ON
+                Canada - I have a knack for creating
+                engaging user experiences.
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="help-text">With over a decade of professional experience I can take on any task, including, but
+                not limited to:
+            </div>
+        </div>
+        <div class="ui five column stackable grid">
+            <div class="column center-column">
+                <i class="coffee icon help-icon"></i>
+
+                <div class="help-option-text">Front/Back End<br/>Web Development</div>
+            </div>
+            <div class="column center-column">
+                <i class="lightning icon help-icon"></i>
+
+                <div class="help-option-text">Application Development</div>
+            </div>
+            <div class="column center-column">
+                <i class="paint brush icon help-icon"></i>
+
+                <div class="help-option-text">Design</div>
+            </div>
+            <div class="column center-column">
+                <i class="newspaper icon help-icon"></i>
+
+                <div class="help-option-text">Sales & Marketing Materials</div>
+            </div>
+            <div class="column center-column">
+                <i class="server icon help-icon"></i>
+
+                <div class="help-option-text">Server Setup</div>
+            </div>
+
+
+            <div class="column center-column">
+                <i class="database icon help-icon"></i>
+
+                <div class="help-option-text">Database Design</div>
+            </div>
+            <div class="column center-column">
+                <i class="camera icon help-icon"></i>
+
+                <div class="help-option-text">Photography</div>
+            </div>
+            <div class="column center-column">
+                <i class="bullseye brush icon help-icon"></i>
+
+                <div class="help-option-text">Creative Direction</div>
+            </div>
+            <div class="column center-column">
+                <i class="columns icon help-icon"></i>
+
+                <div class="help-option-text">Wireframing</div>
+            </div>
+            <div class="column center-column">
+                <i class="text telephone icon help-icon"></i>
+
+                <div class="help-option-text">Consulting</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui three column grid" id="slant-container-2">
+    <div class="column" id="left-angle-2">
+    </div>
+    <div class="column" id="mid-2">
+    </div>
+    <div class="column" id="right-angle-2">
+    </div>
+</div>
+
+<div class="ui one column page grid" id="blog-section">
+    <div class="column" id="text-block-2">
+        <div class="content-header">RECENT BLOG POSTS</div>
+        <hr class="grad-line">
+    </div>
+    <div class="column">
+        <div class="top-quote">Greetings, my name is Dustin, I'm a creative technologist based in Waterloo, ON
+            Canada - I have a knack for creating
+            engaging user experiences.
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+<script src="scripts/lib/jquery.blast.min.js"></script>
 <script src="scripts/lib/particles.min.js"></script>
 <script src="scripts/main.min.js"></script>
+
 <!--
 <script src="styles/lib/definitions/globals/site.min.js"></script>
 -->
-<!-- Remove for live version -->
-<script src="http://localhost:35729/livereload.js"></script>
-<!-- Remove for live version
 
 </body>
 </html>

@@ -1,12 +1,13 @@
 {{> header}}
+
 <h2>{{title}}</h2>
 
 <article>
   <ul>
-    {{#each collections.posts}}
+    {{#each collections.lastArticles}}
       <li>
-        <h3>{{this.title}}</h3>
-        <article>{{this.contents}}</article>
+        <h3>{{this.title}} - {{formatDate this.date}}</h3>
+        <div>{{{this.excerpt}}}</div>
       </li>
     {{/each}}
   </ul>
