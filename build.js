@@ -6,6 +6,12 @@ Handlebars.registerHelper("formatDate", function (date) {
     return date;
 });
 
+Handlebars.registerHelper("generateLink", function (title) {
+    title = title.toLowerCase();
+    return title;
+});
+
+
 var Metalsmith = require('metalsmith'),
     markdown = require('metalsmith-markdown'),
     templates = require('metalsmith-templates'),
@@ -36,7 +42,7 @@ Metalsmith(__dirname)
             pattern: 'blog/posts/*.md',
             sortBy: 'date',
             reverse: true,
-            limit: 1
+            limit: 4
         }
     }))
     .use(markdown())

@@ -118,11 +118,15 @@ body {
   text-shadow: 2px 2px #333;
 }
 
-.grad-line {
+hr.grad-line {
+  /* autoprefixer: off */
   border: 0;
   width: 30%;
   height: 1px;
-  background-image: linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
+  background-image: -webkit-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
+  background-image: -moz-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
+  background-image: -ms-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
+  background-image: -o-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
 }
 
 
@@ -209,4 +213,13 @@ body {
 #text-block-2{
   z-index: 100;
   margin-top: -45px;
+}
+
+.topper{
+  z-index: 100;
+}
+
+.read-more-icon{
+  //font-size: 3.8rem !important;
+  color: @offWhite !important;
 }
