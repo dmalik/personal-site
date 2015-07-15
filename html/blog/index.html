@@ -1,21 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Metalsmith Test Site</title>
-
-  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8"/>
+  <title>The Website Of Dustin Malik</title>
+  <link rel="stylesheet" href="styles/blog.css" type="text/css" charset="utf-8">
+  <script>
+    var meta = document.createElement("meta");
+    meta.setAttribute('name', 'viewport');
+    meta.setAttribute('content', 'initial-scale=' + (1 / window.devicePixelRatio) + ',user-scalable=no');
+    document.getElementsByTagName('head')[0].appendChild(meta);
+  </script>
 </head>
 <body>
-
-<header>
-  <h1 class="logo"><a href="/">Metalsmith Test Site</a></h1>
-</header>
-
-
-<div class="main-wrapper">
-
 <h2>Blog</h2>
 
 <article>
@@ -31,9 +27,10 @@
   </ul>
 </article>
 
-</div> 
-<footer>
-  Metalsmith test site
-</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
+<script src="../scripts/blog.min.js"></script>
+
 </body>
 </html>

@@ -121,6 +121,7 @@
     <hr class="grad-line">
   </div>
   <div class="column topper">
+    <!--
     <div class="ui cards">
       {{#each collections.lastArticles}}
         <a class="ui centered card" href="{{generateLink this.title}}">
@@ -145,6 +146,11 @@
   <div class="column more-blog">
     <button class="ui orange button" id="blog-button"><span id="button-text"><i class="external square icon"></i> Go to Dustin's Blog</span>
     </button>
+  </div>
+  -->
+    <div class="column more-blog">
+      <p>Blog coming soon...</p>
+    </div>
   </div>
 </div>
 
