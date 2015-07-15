@@ -27,7 +27,15 @@ body {
   background: radial-gradient(ellipse at center, #3e3644 0%, #311f3a 47%, #1d0c23 100%) !important;
   overflow: hidden;
   position: relative;
-  height: 80vh;
+  height: 70vh;
+}
+
+#thanks-container {
+  //background-color: @purple !important;
+  background: radial-gradient(ellipse at center, #3e3644 0%, #311f3a 47%, #1d0c23 100%) !important;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
 }
 
 #particles-js{
@@ -41,8 +49,16 @@ body {
   display: table;
   overflow: hidden;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   z-index: 1;
+}
+
+.content-a2 {
+  display: table;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
 }
 
 .content-b {
@@ -54,20 +70,38 @@ body {
   z-index: 1;
 }
 
+
 #header-text {
   font-family: 'Simplifica', Arial, sans-serif;
   position: absolute;
-  //margin-top: 400px;
   text-align: center;
   letter-spacing: 5px;
   color: @offWhite;
-  font-size: 4rem;
-  margin-top: -100px;
+  font-size: 3.5rem;
+  margin-top: -120px;
   padding-bottom: 15px;
   text-shadow: 2px 2px #333;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   z-index: 1;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#header-text-thanks {
+  font-family: 'Simplifica', Arial, sans-serif;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 5px;
+  color: @offWhite;
+  font-size: 3.5rem;
+  margin-top: -250px;
+  text-shadow: 2px 2px #333;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #slant-container-1{
@@ -84,6 +118,8 @@ body {
   background-color: @red;
   z-index:50;
   transform: rotate(-355deg) scale(2.1) skew(-355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
 }
 
 #mid-header {
@@ -102,11 +138,14 @@ body {
   z-index:50;
   //background-color: rgba(255, 0, 0, 0.3);
   transform: rotate(355deg) scale(2.1) skew(355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
 }
 
 #text-block-1{
   z-index: 100;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .content-header {
@@ -114,15 +153,15 @@ body {
   text-align: center;
   letter-spacing: 5px;
   color: @offWhite;
-  font-size: 3rem;
+  font-size: 2.8rem;
   text-shadow: 2px 2px #333;
 }
 
 hr.grad-line {
-  /* autoprefixer: off */
   border: 0;
   width: 30%;
   height: 1px;
+  margin-top: -5px;
   background-image: -webkit-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
   background-image: -moz-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
   background-image: -ms-linear-gradient(left, rgba(216, 228, 184, 0), rgba(216, 228, 184, 0.75), rgba(216, 228, 184, 0));
@@ -136,8 +175,8 @@ hr.grad-line {
   color: @offWhite;
   font-weight: 300;
   line-height: 150%;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 12%;
+  padding-right: 12%;
   padding-bottom: 20px;
 }
 
@@ -158,6 +197,8 @@ hr.grad-line {
   font-size: 1.4rem;
   color: @offWhite;
   font-weight: 300;
+  padding-top:12px;
+  line-height: 1.8rem;
 }
 
 .help-icon{
@@ -183,7 +224,9 @@ hr.grad-line {
   padding-bottom: 0rem !important;
   background-color: @purple;
   z-index:50;
-  transform: rotate(355deg) scale(2.01) skew(355deg) translate(0px);
+  transform: rotate(355deg) scale(2.02) skew(355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
 }
 
 #mid-2 {
@@ -201,13 +244,16 @@ hr.grad-line {
   background-color: @purple;
   z-index:50;
   //background-color: rgba(255, 0, 0, 0.3);
-  transform: rotate(-355deg) scale(2.01) skew(-355deg) translate(0px);
+  transform: rotate(-355deg) scale(2.02) skew(-355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
 }
 
 #blog-section{
   z-index: 50;
   background-color: @purple;
-  margin-top: -20px
+  margin-top: -20px;
+  padding-bottom: 100px;
 }
 
 #text-block-2{
@@ -222,4 +268,262 @@ hr.grad-line {
 .read-more-icon{
   //font-size: 3.8rem !important;
   color: @offWhite !important;
+}
+
+#button-text{
+  color: @offWhite !important;
+  font-weight: 300 !important;
+}
+
+.more-blog{
+  text-align: center;
+}
+
+.ui.inverted.orange.buttons .button, .ui.inverted.orange.button {
+  box-shadow: 0 0 0 1px @orange inset !important;
+}
+
+#slant-container-3{
+  z-index: 50;
+  margin-top: -25px;
+}
+
+#left-angle-3{
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @orange;
+  z-index:50;
+  transform: rotate(-355deg) scale(2.1) skew(-355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
+}
+
+#mid-3{
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  z-index:50;
+}
+
+#right-angle-3 {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @orange;
+  z-index:50;
+  //background-color: rgba(255, 0, 0, 0.3);
+  transform: rotate(355deg) scale(2.1) skew(355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
+}
+
+#text-block-3{
+  z-index: 100;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#experience-section{
+  z-index: 50;
+  background-color: @orange;
+  padding-bottom: 150px
+}
+
+#exp-body{
+  padding-top: 25px;
+}
+
+.exp-header{
+  font-family: 'Simplifica', Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  color: @offWhite;
+  font-weight: 300;
+  padding-top:12px;
+  line-height: 1.8rem;
+}
+
+.stack-icon{
+  text-align: center;
+  ;
+}
+
+.stack-text{
+  font-family: 'Simplifica', Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: @offWhite;
+  font-weight: 300;
+}
+
+#slant-container-4{
+  z-index: 50;
+  //padding-top: 115px;
+}
+
+#left-angle-4 {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @purple;
+  z-index:50;
+  transform: rotate(355deg) scale(2.02) skew(355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
+}
+
+#mid-4 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  z-index:50;
+}
+
+#right-angle-4 {
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: -30px;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  background-color: @purple;
+  z-index:50;
+  //background-color: rgba(255, 0, 0, 0.3);
+  transform: rotate(-355deg) scale(2.02) skew(-355deg) translate(0px);
+  overflow-x: hidden;
+  max-width:100%
+}
+
+#text-block-4{
+  z-index: 100;
+  margin-top: -80px;
+  padding-bottom: 50px;
+}
+
+#contact-section{
+  z-index: 50;
+  background-color: @purple;
+  padding-bottom: 50px
+}
+
+#contact-body{
+  padding-top: 25px;
+}
+
+.stack-icon{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.ui.form input[type="text"]{
+  color: @purple;
+}
+
+.ui.form textarea{
+  color: @purple;
+}
+
+.ui.form .field>label{
+  font-family: 'Simplifica', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: @offWhite;
+  font-weight: 300;
+}
+
+.centered-vertically {
+  justify-content:center;
+  align-items:center;
+}
+
+#twitter{
+  cursor: pointer;
+  cursor: hand;
+}
+
+#linkedin{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.twittersvgmain{
+  height: 50px;
+}
+
+.linkedinsvgmain{
+  height: 50px;
+}
+
+
+@media (max-width: 960px) {
+
+  #text-block-1{
+    padding-top: 0px;
+    margin-top: -15px;
+  }
+
+  #text-block-2{
+    margin-top: -15px;
+  }
+  #text-block-3{
+    padding-top: 0px;
+    margin-top: -15px;
+    padding-bottom: 0px;
+  }
+  #text-block-4{
+    margin-top: -45px;
+  }
+
+}
+
+@media (max-width: 675px) {
+  #header-text {
+    font-size: 2.5rem;
+    //margin-top: -250px;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .top-quote{
+    font-size: 1.3rem;
+  }
+
+  .help-text{
+    font-size: 1.0rem;
+  }
+
+  .help-option-text{
+    font-size: 1.2rem;
+  }
+
+  .content-header{
+    font-size: 2.5rem;
+  }
+
+}
+
+
+@media (max-width: 530px) {
+  #header-text {
+    font-size: 2.0rem;
+    margin-top: -150px;
+    width: 100%;
+    height: 100vh;
+  }
+
+}
+
+@media (max-width: 500px) {
+  #header-text-thanks {
+    font-size: 2.5rem;
+    margin-top: -250px;
+    width: 100%;
+    height: 100vh;
+  }
 }

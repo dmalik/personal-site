@@ -58,7 +58,7 @@
 @lightBlack       : #333333;
 @lightBlue        : #54C8FF;
 @lightGreen       : #2ECC40;
-@lightOrange      : #FF851B;
+@lightOrange      : #D55B43;
 @lightPink        : #FF8EDF;
 @lightPurple      : #CDC6FF;
 @lightRed         : #FF695E;
@@ -109,7 +109,7 @@
 @pageBackground      : @purple;
 @pageOverflowX       : hidden;
 
-@lineHeight          : 1.63;
+@lineHeight          : 1.83;
 @textColor           : @offWhite;
 
 /*-------------------
@@ -288,11 +288,11 @@
 @positiveTextColor       : #3C763D;
 
 /* Negative */
-@negativeColor           : @red;
+@negativeColor           : @orange;
 @negativeBackgroundColor : #FFF0F0;
 @negativeBorderColor     : #DBB1B1;
-@negativeHeaderColor     : #912D2B;
-@negativeTextColor       : #A94442;
+@negativeHeaderColor     : @orange;
+@negativeTextColor       : @orange;
 
 /* Info */
 @infoColor              : #31CCEC;
