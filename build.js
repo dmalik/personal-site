@@ -1,15 +1,29 @@
-var Metalsmith   = require('metalsmith'),
-    markdown     = require('metalsmith-markdown'),
-    templates    = require('metalsmith-templates'),
-    collections  = require('metalsmith-collections'),
-    permalinks   = require('metalsmith-permalinks'),
-    less         = require('metalsmith-less'),
-    ignore       = require('metalsmith-ignore'),
-    //autoprefixer = require('metalsmith-autoprefixer'),
-    uglify       = require('metalsmith-uglify'),
-    serve        = require('metalsmith-serve'),
-    watch        = require('metalsmith-watch'),
-    Handlebars   = require('handlebars');
+var Handlebars = require('handlebars');
+var moment     = require('moment');
+
+Handlebars.registerHelper("formatDate", function (date) {
+  date = moment(date).format('MMMM Do YYYY');
+  return date;
+});
+
+Handlebars.registerHelper("generateLink", function (title) {
+  title = title.toLowerCase();
+  title = title.split(' ').join('_');
+  title = "/blog/posts/"+title;
+  return title;
+});
+
+
+var Metalsmith  = require('metalsmith'),
+    markdown    = require('metalsmith-markdown'),
+    templates   = require('metalsmith-templates'),
+    collections = require('metalsmith-collections'),
+    permalinks  = require('metalsmith-permalinks'),
+    less        = require('metalsmith-less'),
+    ignore      = require('metalsmith-ignore'),
+    uglify      = require('metalsmith-uglify'),
+    serve       = require('metalsmith-serve'),
+    excerpts    = require('metalsmith-excerpts');
 
 Metalsmith(__dirname)
   .metadata({
@@ -20,19 +34,23 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .use(collections({
-    pages: {
-      pattern: 'content/pages/*.md'
-    },
     posts: {
-      pattern: 'content/posts/*.md',
+      pattern: 'blog/posts/*.md',
       sortBy: 'date',
       reverse: true
+    },
+    lastArticles: {
+      pattern: 'blog/posts/*.md',
+      sortBy: 'date',
+      reverse: true,
+      limit: 4
     }
   }))
   .use(markdown())
   .use(permalinks({
-    pattern: ':collection/:title'
+    pattern: ':collections/:title'
   }))
+  .use(excerpts())
   .use(less({
     pattern: 'styles/home.less',
     render: {
@@ -51,18 +69,8 @@ Metalsmith(__dirname)
     }
   }))
   .use(uglify({removeOriginal: true}))
-  //.use(autoprefixer())
-  .use(ignore(['**/*.less', '**/*.variables', '**/*.overrides', '**/*.config']))
+  .use(ignore(['**/*.less', '**/*.variables', '**/*.overrides', '**/*.config', 'blog/fonts/**/*', 'blog/scripts/**/*', 'blog/styles/**/*', 'blog/themes/**/*', 'thanks/fonts/**/*', 'thanks/scripts/**/*', 'thanks/styles/**/*', 'thanks/themes/**/*', 'thanks/images/**/*']))
   .use(serve())
-  .use(
-  watch({
-    paths: {
-      "${source}/**/*": true,
-      "templates/**/*": "**/*.md"
-    },
-    livereload: true
-  })
-)
   .destination('./html')
   .build(function (err) {
     if (err) {

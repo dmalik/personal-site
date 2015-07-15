@@ -6,13 +6,13 @@
        Fonts
 --------------------*/
 
-@headerFont        : 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : 'Roboto Slab', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Roboto Slab', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @fontSmoothing     : antialiased;
 
 @importGoogleFonts : true;
-@googleFontName    : 'Lato';
-@googleFontSizes   : '400,700,400italic,700italic';
+@googleFontName    : 'Roboto Slab';
+@googleFontSizes   : '300';
 @googleSubset      : 'latin';
 
 @googleProtocol    : 'https://';
@@ -29,7 +29,7 @@
   Page Heading
 ---------------*/
 
-@headerFontWeight : bold;
+@headerFontWeight : normal;
 @headerLineHeight : 1.33em;
 
 @h1               : 2rem;
@@ -47,10 +47,10 @@
 @blue             : #3B83C0;
 @green            : #5BBD72;
 @grey             : #CCCCCC;
-@orange           : #E07B53;
+@orange           : #D55B43;
 @pink             : #D9499A;
-@purple           : #564F8A;
-@red              : #D95C5C;
+@purple           : #3E3644;
+@red              : #BD2843;
 @teal             : #00B5AD;
 @yellow           : #F2C61F;
 
@@ -58,7 +58,7 @@
 @lightBlack       : #333333;
 @lightBlue        : #54C8FF;
 @lightGreen       : #2ECC40;
-@lightOrange      : #FF851B;
+@lightOrange      : #D55B43;
 @lightPink        : #FF8EDF;
 @lightPurple      : #CDC6FF;
 @lightRed         : #FF695E;
@@ -69,7 +69,7 @@
 @fullBlack        : #000000;
 @darkGrey         : #AAAAAA;
 @lightGrey        : #DCDDDE;
-@offWhite         : #FAFAFA;
+@offWhite         : #D8E4B8;
 @darkWhite        : #F0F0F0;
 @white            : #FFFFFF;
 
@@ -106,11 +106,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #F7F7F7;
+@pageBackground      : @purple;
 @pageOverflowX       : hidden;
 
-@lineHeight          : 1.33;
-@textColor           : rgba(0, 0, 0, 0.8);
+@lineHeight          : 1.83;
+@textColor           : @offWhite;
 
 /*-------------------
       Paragraph
@@ -134,7 +134,7 @@
 @highlightBackground      : #CCE2FF;
 @highlightColor           : @textColor;
 
-@inputHighlightBackground : rgba(100, 100, 100, 0.4);
+@inputHighlightBackground : rgba(216,228,184, 0.4);
 @inputHighlightColor      : @textColor;
 
 /*-------------------
@@ -288,11 +288,11 @@
 @positiveTextColor       : #3C763D;
 
 /* Negative */
-@negativeColor           : @red;
+@negativeColor           : @orange;
 @negativeBackgroundColor : #FFF0F0;
 @negativeBorderColor     : #DBB1B1;
-@negativeHeaderColor     : #912D2B;
-@negativeTextColor       : #A94442;
+@negativeHeaderColor     : @orange;
+@negativeTextColor       : @orange;
 
 /* Info */
 @infoColor              : #31CCEC;
@@ -353,8 +353,8 @@
 @selectedBorderColor           : rgba(39, 41, 43, 0.3);
 @disabledBorderColor           : rgba(39, 41, 43, 0.5);
 
-@solidBorderColor              : #D4D4D5;
-@solidSelectedBorderColor      : #BEBEBF;
+@solidBorderColor              : @orange;
+@solidSelectedBorderColor      : @orange;
 
 @whiteBorderColor              : rgba(255, 255, 255, 0.2);
 @selectedWhiteBorderColor      : rgba(255, 255, 255, 0.8);
@@ -492,9 +492,9 @@
 @greyHover            : lighten(@grey, 3);
 @darkGreyHover        : lighten(@darkGrey, 3);
 
-@whiteHover           : lighten(@white, 3);
-@offWhiteHover        : lighten(@offWhite, 3);
-@darkWhiteHover       : lighten(@darkWhite, 3);
+@whiteHover           : lighten(@orange, 3);
+@offWhiteHover        : lighten(@orange, 3);
+@darkWhiteHover       : lighten(@orange, 3);
 
 @facebookHoverColor   : lighten(@facebookColor, 3);
 @twitterHoverColor    : lighten(@twitterColor, 3);

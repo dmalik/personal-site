@@ -1,6 +1,7 @@
-</div> {{!-- END .main-wrapper --}}
-<footer>
-  Metalsmith test site
-</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
+<script src="../scripts/blog.min.js"></script>
+
 </body>
 </html>
