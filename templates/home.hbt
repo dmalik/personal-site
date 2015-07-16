@@ -37,70 +37,75 @@
   <div class="column" id="text-block-1">
     <div class="content-header">PROFILE</div>
     <hr class="grad-line">
+    <div class="ui one column grid">
+      <div class="column">
+        <div class="column">
+          <div class="top-quote">Greetings, my name is Dustin, I'm a digital craftsman based in Waterloo, ON
+            Canada - I have a knack for creating engaging user experiences.
+          </div>
+        </div>
 
-    <div class="column">
-      <div class="top-quote">Greetings, my name is Dustin, I'm a digital craftsman based in Waterloo, ON
-        Canada - I have a knack for creating engaging user experiences.
+        <div class="column">
+          <div class="help-text">With over a decade of professional experience I can take on any task, including, but
+            not limited to:
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="column">
+        <div class="five column doubling ui grid">
+          <div class="column center-column">
+            <i class="code icon help-icon"></i>
 
-    <div class="column">
-      <div class="help-text">With over a decade of professional experience I can take on any task, including, but
-        not limited to:
-      </div>
-    </div>
-    <div class="ui five column stackable grid">
-      <div class="column center-column">
-        <i class="code icon help-icon"></i>
+            <div class="help-option-text">Front/Back End<br/>Web Development</div>
+          </div>
+          <div class="column center-column">
+            <i class="mobile icon help-icon"></i>
 
-        <div class="help-option-text">Front/Back End<br/>Web Development</div>
-      </div>
-      <div class="column center-column">
-        <i class="mobile icon help-icon"></i>
+            <div class="help-option-text">Application Development</div>
+          </div>
+          <div class="column center-column">
+            <i class="write icon help-icon"></i>
 
-        <div class="help-option-text">Application Development</div>
-      </div>
-      <div class="column center-column">
-        <i class="write icon help-icon"></i>
+            <div class="help-option-text">UX Design</div>
+          </div>
+          <div class="column center-column">
+            <i class="newspaper icon help-icon"></i>
 
-        <div class="help-option-text">UX Design</div>
-      </div>
-      <div class="column center-column">
-        <i class="newspaper icon help-icon"></i>
+            <div class="help-option-text">Sales & Marketing Materials</div>
+          </div>
+          <div class="column center-column">
+            <i class="server icon help-icon"></i>
 
-        <div class="help-option-text">Sales & Marketing Materials</div>
-      </div>
-      <div class="column center-column">
-        <i class="server icon help-icon"></i>
-
-        <div class="help-option-text">Server Setup</div>
-      </div>
+            <div class="help-option-text">Server Setup</div>
+          </div>
 
 
-      <div class="column center-column">
-        <i class="database icon help-icon"></i>
+          <div class="column center-column">
+            <i class="database icon help-icon"></i>
 
-        <div class="help-option-text">Database Design</div>
-      </div>
-      <div class="column center-column">
-        <i class="camera icon help-icon"></i>
+            <div class="help-option-text">Database Design</div>
+          </div>
+          <div class="column center-column">
+            <i class="camera icon help-icon"></i>
 
-        <div class="help-option-text">Photography</div>
-      </div>
-      <div class="column center-column">
-        <i class="edit icon help-icon"></i>
+            <div class="help-option-text">Photography</div>
+          </div>
+          <div class="column center-column">
+            <i class="edit icon help-icon"></i>
 
-        <div class="help-option-text">Prototyping</div>
-      </div>
-      <div class="column center-column">
-        <i class="line chart icon help-icon"></i>
+            <div class="help-option-text">Prototyping</div>
+          </div>
+          <div class="column center-column">
+            <i class="line chart icon help-icon"></i>
 
-        <div class="help-option-text">Product Strategy</div>
-      </div>
-      <div class="column center-column">
-        <i class="text telephone icon help-icon"></i>
+            <div class="help-option-text">Product Strategy</div>
+          </div>
+          <div class="column center-column">
+            <i class="text telephone icon help-icon"></i>
 
-        <div class="help-option-text">Consulting</div>
+            <div class="help-option-text">Consulting</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -171,7 +176,8 @@
       <div class="column">
         <p class="exp-header">Professional Career</p>
 
-        <p class="career-text">I started my professional career at BlackBerry (then RIM) in 2004 as a Flash Developer. I spent 6 years
+        <p class="career-text">I started my professional career at BlackBerry (then RIM) in 2004 as a Flash Developer. I
+          spent 6 years
           developing learning material on how to use a BlackBerry and all of the software
           that BlackBerry created. In those 6 years I developed over 200 courses which allowed me to fine tune my skills
           in development, design, animation, video, 3D and most importantly user
@@ -313,6 +319,7 @@
         <form class="ui form" action="//submit.jotform.ca/submit/51934114369255/" method="post"
               name="form_51934114369255" id="51934114369255" accept-charset="utf-8">
           <input type="hidden" name="formID" value="51934114369255"/>
+
           <div class="ui error message"></div>
           <div class="field">
             <label>Name</label>
