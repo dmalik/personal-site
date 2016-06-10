@@ -1,0 +1,260 @@
+@import "../node_modules/normalize.css/normalize";
+@import url(https://fonts.googleapis.com/css?family=Monda|Roboto+Slab);
+
+$mainColor: #2b2b2b;
+$secondaryColor: #ebebeb;
+$highlightColor: #0477be;
+$linkColor: #0477be;
+$linkColor_active: #11be04;
+
+body{
+    min-width: 320px;
+    margin: 0;
+    background-color: #fff;
+    color: $mainColor;
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 1.8;
+    font-family: 'Roboto Slab',Georgia,serif;
+}
+
+body.scroll-disabled {
+    overflow: hidden
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+    -webkit-transition: color .3s, background .3s;
+    transition: color .3s, background .3s;
+}
+
+a:active,
+a:hover {
+    color: $linkColor_active;
+    text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Monda,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    line-height: 1;
+}
+
+h3{
+    color: $highlightColor;
+}
+
+h4{
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab',Georgia,serif;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: $mainColor;
+    background-image: linear-gradient(to right, $mainColor, $secondaryColor);
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.stack{
+    margin-top: 1.5rem;
+}
+
+.flex-wrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+}
+
+.flex-header {
+    background-color: $secondaryColor;
+    display: block;
+    box-sizing: border-box;
+    padding: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-item {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.flex-main{
+    overflow: auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 4.45rem 2.75rem;
+}
+
+.main-item{
+    margin-top: 3rem;
+}
+
+.stack-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+.stack-left {
+    width:70%;
+}
+
+.stack-right {
+    width:30%;
+    background: rgba(4, 119, 190, 0.15);
+}
+
+.stack-bottom {
+    width:100%;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.fullstack-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.fullstack-frontend {
+    width:100%;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.fullstack-backend {
+    width:100%;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.stack-content{
+    margin: 1rem;
+ }
+
+.exp-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+.exp-line{
+    min-width:0.2%;
+    background: $highlightColor;
+}
+
+.exp-arrow{
+    min-width: 7.8%;
+}
+
+.exp-content {
+    width: 92%;
+}
+
+.arrow-right {
+    margin-top: 0.5rem;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid $highlightColor;
+}
+
+.icon-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+.icon{
+    width: 33%;
+}
+
+.twitter-icon, .linkedin-icon,.github-icon {
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 100%;
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    color: $highlightColor;
+    fill: $highlightColor;
+    height: 3rem;
+    width: 3rem;
+    display: block;
+}
+
+.twitter-icon:hover, .linkedin-icon:hover, .github-icon:hover {
+    fill: #ffffff;
+    background: $highlightColor;
+}
+
+@media (max-width: 1100px) {
+    .stack-right,.stack-left,.stack-bottom{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 840px) {
+    .flex-wrapper {
+        box-orient: horizontal;
+        box-direction: normal;
+        flex-direction: row;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .flex-header {
+        box-flex: 0;
+        flex: 0 0 32rem;
+        padding: 4.45rem 2.75rem;
+        max-width: 22rem;
+    }
+    .flex-main{
+        box-flex: 1;
+        flex: 1;
+        padding: 4.45rem;
+    }
+    .main-contrainer{
+        max-width: 65rem;
+        margin: 0 auto;
+    }
+    .exp-arrow{
+        min-width: 4.8%;
+    }
+
+    .exp-content {
+        width: 95%;
+    }
+    .icon-container {
+        display: flex;
+        flex-flow: column;
+        align-items: stretch;
+        margin-top: 1rem;
+    }
+
+    .icon{
+        width: 100%;
+    }
+}

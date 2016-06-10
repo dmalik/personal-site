@@ -1,33 +1,51 @@
 {
   "name": "dustinmalik.com",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "The personal website of Dustin Malik",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/dmalik/personal-site.git"
   },
   "author": "Dustin Malik <dustinmalik@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/dmalik/personal-site/issues"
   },
   "homepage": "http://www.dustinmalik.com",
   "devDependencies": {
-    "handlebars": "^3.0.3",
-    "metalsmith": "^1.7.0",
-    "metalsmith-collections": "^0.7.0",
-    "metalsmith-ignore": "^0.1.2",
-    "metalsmith-less": "^2.0.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-serve": "0.0.3",
-    "metalsmith-templates": "^0.7.0",
-    "metalsmith-uglify": "^1.0.1",
-    "metalsmith-excerpts": "^1.0.0",
-    "moment": "^2.10.3"
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "browser-sync": "^2.12.10",
+    "browser-sync-webpack-plugin": "^1.0.3",
+    "bs-fullscreen-message": "^1.0.2",
+    "compression-webpack-plugin": "^0.3.1",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "cssnano": "^3.7.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.19.0",
+    "image-webpack-loader": "^1.8.0",
+    "postcss": "^5.0.21",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "strip-ansi": "^3.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "bluebird": "^3.4.0",
+    "normalize.css": "^4.1.1"
   }
 }
