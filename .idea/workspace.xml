@@ -2,407 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1911b0d9-7ecb-4480-ba55-7371cbb5cd55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/DustinMalik.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/as3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/cordova.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/createjs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/css3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/flash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/html5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/js.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/linkedin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/meteor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/mongo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/node.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/photoshop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/postgres.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/images/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/posts/first_post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog/posts/second_post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/fonts/simplifica_typeface-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/fonts/simplifica_typeface-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/fonts/simplifica_typeface-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/fonts/simplifica_typeface-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/fonts/simplifica_typeface-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/as3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/cordova.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/createjs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/css3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/flash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/html5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/js.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/linkedin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/meteor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/mongo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/node.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/photoshop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/postgres.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/images/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/scripts/lib/jquery.blast.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/scripts/lib/particles.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/scripts/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/scripts/particles.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/scripts/thanks.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/fonts/simplifica_typeface-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/fonts/simplifica_typeface-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/fonts/simplifica_typeface-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/fonts/simplifica_typeface-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/fonts/simplifica_typeface-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/home.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/behaviors/api.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/behaviors/colorize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/behaviors/form.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/behaviors/state.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/behaviors/visibility.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/behaviors/visit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/globals/site.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/accordion.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/checkbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/dimmer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/dropdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/embed.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/modal.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/nag.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/progress.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/rating.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/search.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/shape.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/sidebar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/sticky.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/tab.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/definitions/modules/transition.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/themes/default/assets/fonts/icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/themes/default/assets/fonts/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/themes/default/assets/fonts/icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/themes/default/assets/fonts/icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/themes/default/assets/fonts/icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/styles/lib/themes/default/assets/images/flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/thanks/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/fonts/icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/fonts/icons.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/fonts/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/fonts/icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/fonts/icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/fonts/icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/themes/default/assets/images/flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/blog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/blog/posts/first_post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/blog/posts/second_post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/simplifica_typeface-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/simplifica_typeface-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/simplifica_typeface-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/simplifica_typeface-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/simplifica_typeface-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/as3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/cordova.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/createjs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/css3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/flash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/html5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/js.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/linkedin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/meteor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/mongo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/node.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/photoshop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/postgres.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/lib/jquery.blast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/lib/particles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/particles.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/thanks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/blog.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/fonts/simplifica_typeface-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/fonts/simplifica_typeface-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/fonts/simplifica_typeface-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/fonts/simplifica_typeface-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/fonts/simplifica_typeface-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/home.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/behaviors/api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/behaviors/colorize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/behaviors/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/behaviors/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/behaviors/visibility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/behaviors/visit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/collections/breadcrumb.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/collections/form.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/collections/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/collections/menu.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/collections/message.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/collections/table.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/button.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/container.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/flag.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/header.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/icon.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/input.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/label.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/loader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/rail.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/reveal.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/segment.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/elements/step.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/globals/reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/globals/site.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/globals/site.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/accordion.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/checkbox.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/dimmer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/dimmer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/dropdown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/modal.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/nag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/nag.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/popup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/popup.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/progress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/progress.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/rating.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/rating.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/search.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/shape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/shape.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/sidebar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/sticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/sticky.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/tab.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/modules/transition.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/views/ad.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/views/card.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/views/comment.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/views/feed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/views/item.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/definitions/views/statistic.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/semantic.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/breadcrumb.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/breadcrumb.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/form.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/form.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/grid.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/grid.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/menu.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/menu.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/message.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/message.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/table.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/collections/table.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/button.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/button.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/divider.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/divider.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/flag.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/flag.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/header.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/header.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/icon.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/icon.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/image.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/image.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/input.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/input.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/label.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/label.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/list.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/list.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/loader.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/loader.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/rail.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/rail.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/reveal.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/reveal.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/segment.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/segment.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/step.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/elements/step.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/globals/reset.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/globals/reset.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/globals/site.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/globals/site.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/accordion.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/accordion.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/chatroom.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/chatroom.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/checkbox.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/checkbox.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/dimmer.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/dimmer.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/dropdown.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/dropdown.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/modal.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/modal.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/nag.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/nag.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/popup.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/popup.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/progress.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/progress.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/rating.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/rating.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/search.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/search.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/shape.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/shape.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/sidebar.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/sidebar.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/sticky.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/sticky.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/tab.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/tab.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/transition.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/transition.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/video.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/ad.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/ad.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/card.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/card.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/comment.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/comment.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/feed.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/feed.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/item.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/item.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/statistic.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/site/views/statistic.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/theme.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/assets/fonts/icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/assets/fonts/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/assets/fonts/icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/assets/fonts/icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/assets/fonts/icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/assets/images/flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/breadcrumb.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/breadcrumb.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/form.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/form.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/grid.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/grid.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/menu.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/menu.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/message.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/message.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/table.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/button.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/button.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/container.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/container.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/divider.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/divider.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/flag.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/flag.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/header.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/header.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/icon.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/icon.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/image.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/image.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/input.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/input.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/label.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/label.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/list.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/list.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/loader.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/loader.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/rail.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/rail.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/reveal.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/reveal.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/segment.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/segment.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/step.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/elements/step.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/globals/reset.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/globals/reset.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/globals/site.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/globals/site.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/accordion.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/accordion.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/chatroom.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/chatroom.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/checkbox.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/checkbox.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/dimmer.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/dimmer.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/dropdown.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/dropdown.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/embed.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/embed.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/modal.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/modal.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/nag.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/nag.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/popup.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/popup.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/progress.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/progress.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/rating.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/rating.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/search.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/search.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/shape.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/shape.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/sidebar.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/sidebar.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/sticky.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/sticky.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/tab.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/tab.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/transition.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/modules/transition.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/ad.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/ad.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/card.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/card.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/comment.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/comment.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/feed.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/feed.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/item.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/item.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/statistic.overrides" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/views/statistic.variables" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/thanks.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/fonts/icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/fonts/icons.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/fonts/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/fonts/icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/fonts/icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/fonts/icons.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/themes/default/assets/images/flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/blog.hbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/home.hbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page.hbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/partials/footer.hbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/partials/header.hbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/post.hbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/thanks.hbt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/scripts/blog.min.js" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/scripts/blog.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/styles/lib/site/modules/video.variables" afterPath="$PROJECT_DIR$/src/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/styles/lib/themes/default/collections/table.overrides" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="personal-site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -422,13 +24,13 @@
     <favorites_list name="personal-site" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42366865">
+    <splitter split-orientation="horizontal" split-proportion="0.51407236">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1056">
+                <state relative-caret-position="1920">
                   <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
                   <folding />
                 </state>
@@ -445,11 +47,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="724">
-                  <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+                <state relative-caret-position="1376">
+                  <caret line="110" column="143" selection-start-line="110" selection-start-column="143" selection-end-line="110" selection-end-column="143" />
                   <folding />
                 </state>
               </provider>
@@ -472,8 +74,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="558">
-                  <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+                <state relative-caret-position="6560">
+                  <caret line="205" column="1" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -501,9 +103,9 @@
         <option value="$PROJECT_DIR$/src/images/twitter_logo.svg" />
         <option value="$PROJECT_DIR$/src/images/linkedin.svg" />
         <option value="$PROJECT_DIR$/src/style.css" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -610,6 +212,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personal-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personal-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -632,6 +248,7 @@
       <recent name="C:\Users\dusti\Documents\GitHub\personal-site\src\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dusti\Documents\GitHub\personal-site\html" />
       <recent name="C:\Users\dusti\Documents\GitHub\personal-site\src\images" />
     </key>
   </component>
@@ -708,12 +325,12 @@
       <workItem from="1464980547597" duration="17251000" />
       <workItem from="1465305617813" duration="2345000" />
       <workItem from="1465315078839" duration="8481000" />
-      <workItem from="1465390346397" duration="37352000" />
+      <workItem from="1465390346397" duration="39751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75767000" />
+    <option name="totallyTimeSpent" value="78166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="3858" height="2128" extended-state="6" />
@@ -918,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -989,22 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1013,10 +606,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6560">
+          <caret line="205" column="1" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
+        <state relative-caret-position="1920">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1376">
+          <caret line="110" column="143" selection-start-line="110" selection-start-column="143" selection-end-line="110" selection-end-column="143" />
           <folding />
         </state>
       </provider>
