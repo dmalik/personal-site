@@ -1,0 +1,129 @@
+@import 'reset-css/reset.css';
+@import 'normalize.css/normalize.css';
+@import './variables';
+
+/****************************/
+/*Lost grid settings - start*/
+/****************************/
+// Read docs here - http://lostgrid.org/docs.html
+
+@lost gutter 1rem;
+@lost flexbox flex; //Comment this out to revert to no flexbox
+
+//Comment this out to remove the helper grid
+* {
+  //lost-utility: edit;
+}
+/**************************/
+/*Lost grid settings - end*/
+/**************************/
+
+/********************************/
+/*Global element styles - start */
+/********************************/
+
+html{
+  font-size: 16px; //Set base size for our rem units
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: $black;
+  font-size: 48px;
+}
+
+.container {
+  lost-center: 80rem; // 80 * 16 = 1280 - How big the container is centered on the page.
+  padding-left:1rem;
+  padding-right: 1rem;
+  @media (min-width: $tablet) {
+    padding-left:2rem;
+    padding-right: 2rem;
+  }
+}
+
+p {
+  color: $black;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.word-highlight{
+  color: $blue;
+  font-weight: 400;
+}
+/******************************/
+/*Global element styles - end */
+/******************************/
+
+/*********************************/
+/*Section element styles - start */
+/*********************************/
+
+/*============================*/
+/*section-header styles - start */
+/*============================*/
+#section-header {
+  padding-top: 8rem;
+  div{
+    lost-column: 1/1;
+  }
+  img {
+    max-width: 100%;
+  }
+  #descriptor-p {
+    padding-bottom: 1rem;
+  }
+}
+/*============================*/
+/*section-header styles - end */
+/*============================*/
+
+/*============================*/
+/*work-header styles - start */
+/*============================*/
+#work-header {
+  padding-top: 8rem;
+  #header-background{
+    height: 60px;
+    width:500px;
+    position: absolute;
+    z-index:0;
+    background: linear-gradient(270deg, #3A7BD5 11.18%, #3A6073 103.89%);
+  }
+  #header-container {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    text-align: right;
+    z-index: 2;
+    width:
+  }
+  #ribbon-end{
+    float:right;
+    margin-right: -45px;
+    display: inline-block;
+  }
+  #title {
+    display: inline-block;
+    color: $white;
+    font-size: 32px;
+    font-weight: 300;
+  }
+}
+/*============================*/
+/*work-headerd styles - end */
+/*============================*/
+
+#temp{
+  margin-top: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #dddddd;
+}
+
+/*******************************/
+/*Section element styles - end */
+/*******************************/

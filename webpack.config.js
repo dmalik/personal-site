@@ -1,79 +1,65 @@
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var webpack           = require('webpack');
-var autoprefixer      = require('autoprefixer');
-var precss            = require('precss');
-var postcssImport     = require('postcss-import');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
-var CompressionPlugin = require("compression-webpack-plugin");
+const webpack = require('webpack');
+const path = require('path');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
-var path = require('path');
-
-module.exports = {
-
-  degug: true,
-
-  entry: {
-    homepage: './src',
-    css: './src/style.css'
-  },
+const config = {
+  entry: ['./src/styles/main.css', './src/js/index.js'],
   output: {
-    filename: 'bundle.js',
-    path: path.join(__dirname, '/html/'),
-    publicPath: './html'
-  },
-  resolve: {
-    extensions: ['', '.jsx', '.js', '.json'],
-    modulesDirectories: ['node_modules']
+    path: path.resolve(__dirname, 'html'),
+    filename: './js/bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.js[x]?$/, exclude: /node_modules/, loader: 'babel-loader',  query: { presets: ['es2015']} },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader') },
-      { test: /\.(jpe?g|png|gif|svg)$/i, loaders: ['file?hash=sha512&digest=hex&name=[hash].[ext]', 'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false']},
-      { test: /\.woff$/, loader: 'file-loader?name=fonts/[name].[ext]' }
-    ]
-  },
-  postcss: function () {
-    return [postcssImport({ addDependencyTo: webpack }), precss, autoprefixer];
-  },
-  imageWebpackLoader: {
-    pngquant: {
-      quality: "65-90",
-      speed: 4
-    },
-    svgo: {
-      plugins: [
-        {
-          removeViewBox: true
-        },
-        {
-          removeEmptyAttrs: true
-        }
-      ]
-    }
+    rules: [
+    {
+      use: 'babel-loader',
+      test: /\.js$/
+    }, {
+      test: /\.css$/,
+      use: ExtractTextPlugin.extract({
+        fallback: 'style-loader',
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
+          },
+          'postcss-loader'
+        ]
+      })
+    }]
   },
   plugins: [
-    new ExtractTextPlugin('style.css'),
-    new webpack.NoErrorsPlugin(),
-    new webpack.optimize.UglifyJsPlugin(),
-    new BrowserSyncPlugin({
-      // browse to http://localhost:3000/ during development,
-      // ./public directory is being served
-      host: 'localhost',
-      port: 3000,
-      server: { baseDir: ['html'] }
+    new webpack.BannerPlugin({
+      banner: `v${require('./package.json').version}`,
+      raw: false,
+      entryOnly: true
     }),
-    new CopyWebpackPlugin([
-      // {output}/to/file.txt
-      { from: 'src/index.html', to: 'index.html' }
-    ]),
-    new CompressionPlugin({
-      asset: "[path].gz[query]",
-      algorithm: "gzip",
-      test: /\.js$|\.html$/,
-      threshold: 10240,
-      minRatio: 0.8
-    })
+    new CopyPlugin([{from: './src/index.html', to: './' }]),
+    new CopyPlugin([{ context: './src/images', from: '**/*', to:'./images' }]),
+    new CopyPlugin([{ context: './src/assets', from: '**/*', to:'./assets' }]),
+    new ExtractTextPlugin({
+      filename: './styles/main.css',
+      allChunks: true
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
+    new BrowserSyncPlugin(
+      {
+        host: 'localhost',
+        port: 3000,
+        server: {
+          baseDir: ['html']
+        }
+      },
+    //plugin options
+      {
+        reload: true
+      }
+    )
   ]
 };
+
+module.exports = config;
